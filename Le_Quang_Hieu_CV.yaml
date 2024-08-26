@@ -1,0 +1,104 @@
+# yaml-language-server: $schema=https://github.com/sinaatalay/rendercv/blob/main/schema.json?raw=true
+cv:
+  name: Le Quang Hieu
+  location: Da Nang, VN
+  email: hieulw99@gmail.com
+  label: DevOps Engineer
+  phone: "+84905974123"
+  social_networks:
+    - network: GitHub
+      username: hieulw
+    - network: LinkedIn
+      username: hieulw
+  sections:
+    summary:
+      - I'm a Backend Developer with 2 years of experience in Web Development. I have experience
+        in working with REST API using Python, PostgreSQL in a modular monolith system that
+        applies CQRS and Domain Driven Design. I love open source projects, and I'm willing to
+        contribute to them. I'm comfortable with unix command line utilities. I also spend
+        sometimes learning new technologies and tools to improve my knowledge and skills.
+    experience:
+      - start_date: 2020-10
+        end_date: 2022-02
+        highlights:
+          - GoTECQ is a software company specialized in developing healthcare information systems.
+          - Develop and maintain API applications in a system. My API applications include
+            Notification Center, Work Management, Contact Center, Data Management.
+          - Write API Specification, design data model, implement Commands and Queries (CQRS),
+            implement async worker if needed using Redis Queue (python message queue implementation using
+            redis as backend), push realtime messages to FE client using MQTT, write integration tests.
+          - Reduce response time of API applications by 40% by using Redis Queue for async processing.
+          - Dockerized API app and deploy to staging environment for FE and QA to continue development.
+          - Maintain internal libraries for backend services and other components.
+          - Integrate with third-party services like HelloSign for signing contracts,
+            Twilio Flex for contact support, AWS S3 for storage.
+        location: Da Nang, Vietnam
+        company: GoTECQ Vietnam, Ltd.
+        position: Backend Developer
+    technologies:
+      - label: Programming
+        details: Python, JavaScript
+      - label: Database
+        details: PostgreSQL, Redis
+      - label: OS
+        details: Linux
+      - label: Tooling
+        details: Git, Docker, Makefile, Tmux
+      - label: Languages
+        details: English (Intermediate)
+      - label: Other
+        details: SOLID, CQRS, DDD
+    projects:
+      - name: CICFlowMeter
+        date: 2021-03
+        highlights:
+          - Analyze network traffic with more than 80 network traffic analysis features.
+          - Convert packet captures to csv features or realtime sniffing packets from network interface.
+          - Features generate from [CICFlowMeter](https://github.com/hieulw/cicflowmeter) can be
+            used to training Machine Learning model to predict malicious flows.
+      - name: Dreamers Concert
+        date: 2020-12
+        highlights:
+          - Music event [website](https://dreamers-concert.web.app/) for my club at Duy Tan University.
+          - Book and scan tickets with QR Code.
+          - Use React as frontend and Firestore as database, deploy to Firebase.
+    education:
+      - start_date: 2017-08
+        end_date: 2021-08
+        highlights:
+          - "GPA: 3.5/4.0"
+        institution: Duy Tan University
+        area: Network Engineering
+        degree: BS
+design:
+  theme: classic
+  font_size: 10pt
+  page_size: a4paper
+  color: "#004f90"
+  disable_page_numbering: true
+  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  header_font_size: 30 pt
+  text_alignment: left-aligned
+  show_timespan_in:
+    - Experience
+  margins:
+    page:
+      top: 2 cm
+      bottom: 2 cm
+      left: 1.24 cm
+      right: 1.24 cm
+    section_title:
+      top: 0.2 cm
+      bottom: 0.2 cm
+    entry_area:
+      left_and_right: 0.2 cm
+      vertical_between: 0.2 cm
+      date_and_location_width: 3.6 cm
+    highlights_area:
+      top: 0.10 cm
+      left: 0.4 cm
+      vertical_between_bullet_points: 0.10 cm
+    header:
+      vertical_between_name_and_connections: 0.2 cm
+      bottom: 0.2 cm
+      horizontal_between_connections: 0.5 cm
