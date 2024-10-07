@@ -12,12 +12,23 @@ cv:
       username: hieulw
   sections:
     summary:
-      - I'm a Backend Developer with 2 years of experience in Web Development. I have experience
-        in working with REST API using Python, PostgreSQL in a modular monolith system that
-        applies CQRS and Domain Driven Design. I love open source projects, and I'm willing to
-        contribute to them. I'm comfortable with unix command line utilities. I also spend
-        sometimes learning new technologies and tools to improve my knowledge and skills.
+      - I'm an experienced DevOps Engineer in managing cloud-native infrastructure,
+        specializing in Kubernetes and Helm. Proficient in setting up and optimizing
+        CI/CD pipelines using Azure DevOps. Strong scripting abilities in Bash, Python, and
+        JavaScript for automation, system management, and workflow optimization. Adept at driving
+        efficient and scalable infrastructure solutions while ensuring smooth deployment processes.
     experience:
+      - start_date: 2024-03
+        end_date: present
+        highlights:
+          - Maintain CI/CD pipelines using Azure DevOps across multiple projects and environments.
+          - Refactor pipeline templates and configurations to improve maintainability and scalability.
+          - Automate tasks, reduce manual effort by utilize cli tools and scripts for auto patch OS vulnerabilities of the images.
+          - Support developers in debug and troubleshoot issues in and after deployment.
+          - Research and implement new technologies to CI/CD pipelines like apply SAST and DAST tools.
+        location: Ho Chi Minh, Vietnam
+        company: Vietnam International Bank
+        position: Cloud Automation Engineer
       - start_date: 2020-10
         end_date: 2022-02
         highlights:
@@ -36,18 +47,14 @@ cv:
         company: GoTECQ Vietnam, Ltd.
         position: Backend Developer
     technologies:
-      - label: Programming
-        details: Python, JavaScript
-      - label: Database
-        details: PostgreSQL, Redis
-      - label: OS
-        details: Linux
+      - label: Scripting
+        details: Bash, Python, JavaScript
+      - label: Cloud Services
+        details: Azure Devops, Azure Container Registry, Azure Kubernetes Service, Redhat OpenShift Service on AWS
       - label: Tooling
-        details: Git, Docker, Makefile, Tmux
+        details: Git, Docker, Kubernetes, Helm, Terraform
       - label: Languages
         details: English (Intermediate)
-      - label: Other
-        details: SOLID, CQRS, DDD
     projects:
       - name: CICFlowMeter
         date: 2021-03
