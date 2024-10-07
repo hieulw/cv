@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://github.com/sinaatalay/rendercv/blob/main/schema.json?raw=true
 cv:
   name: Le Quang Hieu
-  location: Da Nang, VN
+  location: Ho Chi Minh, Vietnam
   email: hieulw99@gmail.com
   label: DevOps Engineer
   phone: "+84905974123"
@@ -23,12 +23,12 @@ cv:
         highlights:
           - Maintain CI/CD pipelines using Azure DevOps across multiple projects and environments.
           - Refactor pipeline templates and configurations to improve maintainability and scalability.
-          - Automate tasks, reduce manual effort by utilize cli tools and scripts for auto patch OS vulnerabilities of the images.
           - Support developers in debug and troubleshoot issues in and after deployment.
-          - Research and implement new technologies to CI/CD pipelines like apply SAST and DAST tools.
+          - Automate tasks, reduce manual effort by utilize cli tools and scripts for auto patch OS vulnerabilities of the images.
+          - Research and implement SAST and DAST tools to improve security and quality of code.
         location: Ho Chi Minh, Vietnam
         company: Vietnam International Bank
-        position: Cloud Automation Engineer
+        position: DevOps Engineer
       - start_date: 2020-10
         end_date: 2022-02
         highlights:
