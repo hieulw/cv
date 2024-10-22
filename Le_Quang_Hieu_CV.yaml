@@ -23,7 +23,7 @@ cv:
         highlights:
           - Maintain CI/CD pipelines using Azure DevOps across multiple projects and environments.
           - Refactor pipeline templates and configurations to improve maintainability and scalability.
-          - Support developers in debug and troubleshoot issues in and after deployment.
+          - Support development teams in debug and troubleshoot issues in and after deployment.
           - Automate tasks, reduce manual effort by utilize cli tools and scripts for auto patch OS vulnerabilities of the images.
           - Research and implement SAST and DAST tools to improve security and quality of code.
         location: Ho Chi Minh, Vietnam
