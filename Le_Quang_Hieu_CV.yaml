@@ -1,7 +1,6 @@
 # yaml-language-server: $schema=https://github.com/sinaatalay/rendercv/blob/main/schema.json?raw=true
 cv:
   name: Le Quang Hieu
-  location: Ho Chi Minh, Vietnam
   email: hieulw99@gmail.com
   label: DevOps Engineer
   phone: "+84905974123"
@@ -12,100 +11,94 @@ cv:
       username: hieulw
   sections:
     summary:
-      - I'm an experienced DevOps Engineer in managing cloud-native infrastructure,
-        specializing in Kubernetes and Helm. Proficient in setting up and optimizing
-        CI/CD pipelines using Azure DevOps. Strong scripting abilities in Bash, Python, and
-        JavaScript for automation, system management, and workflow optimization. Adept at driving
-        efficient and scalable infrastructure solutions while ensuring smooth deployment processes.
+      - I'm a SRE / DevOps Engineer experienced in building and managing cloud-native infrastructure across GCP and Azure.
+        Specialized in Kubernetes, Helm, and GitOps (ArgoCD), Azure DevOps CI/CD, Terraform.
+        Skilled in automation scripting for scaling operations and improving system reliability.
+        Passionate about designing resilient, secure, and observable systems that empower development teams and deliver business value.
     experience:
-      - start_date: 2024-03
+      - start_date: 2024-12-23
         end_date: present
+        company: "[VSOL](https://vsol.io)"
+        position: SRE / DevOps Engineer
+        location: Ho Chi Minh, Vietnam / Riyadh, Saudi Arabia
+        url: https://vsol.io
         highlights:
-          - Maintain CI/CD pipelines using Azure DevOps across multiple projects and environments.
-          - Refactor pipeline templates and configurations to improve maintainability and scalability.
-          - Support development teams in debug and troubleshoot issues in and after deployment.
-          - Automate tasks, reduce manual effort by utilize cli tools and scripts for auto patch OS vulnerabilities of the images.
-          - Research and implement SAST and DAST tools to improve security and quality of code.
-        location: Ho Chi Minh, Vietnam
-        company: Vietnam International Bank
+          - Onsite in Riyadh, acted as primary incident responder, performing root-cause analysis to reduce MTTR.
+          - Integrated DevSecOps practices into pipelines (SCA, SAST, DAST) to enhance security compliance.
+          - Standardized Terraform GCP modules for multi-environment infrastructure, ensuring consistency and scalability.
+          - Re-architected Apigee API Gateway structure to overcome proxy limits and simplify policy management.
+          - Implemented observability stack using OpenTelemetry, Grafana, Loki, and Prometheus.
+          - Configured Palo Alto firewalls, NAT, and VPN site-to-site connections between GCP and on-prem vendor networks.
+          - Implemented SSO via Keycloak with Entra ID federation, enabling centralized RBAC across internal tools.
+      - start_date: 2024-05-22
+        end_date: 2024-12-28
+        company: "[VIB](https://vib.com.vn)"
         position: DevOps Engineer
+        location: Ho Chi Minh, Vietnam
+        url: https://vib.com.vn
+        highlights:
+          - Maintained and improved CI/CD pipelines across multiple projects using Azure DevOps.
+          - Refactored YAML templates for scalability and reuse across multiple environments.
+          - Automated patching and CVE remediation using scripts and CLI tools.
+          - Integrated SAST and DAST tools into pipelines to enforce security gates and improve code quality.
+          - Provided troubleshooting support to developers for build, deployment, and infrastructure issues.
       - start_date: 2020-10
         end_date: 2022-02
-        highlights:
-          - GoTECQ is a software company specialized in developing healthcare information systems.
-          - Develop and maintain API applications in a system. My API applications include
-            Notification Center, Work Management, Contact Center, Data Management.
-          - Write API Specification, design data model, implement Commands and Queries (CQRS),
-            implement async worker if needed using Redis Queue (python message queue implementation using
-            redis as backend), push realtime messages to FE client using MQTT, write integration tests.
-          - Reduce response time of API applications by 40% by using Redis Queue for async processing.
-          - Dockerized API app and deploy to staging environment for FE and QA to continue development.
-          - Maintain internal libraries for backend services and other components.
-          - Integrate with third-party services like HelloSign for signing contracts,
-            Twilio Flex for contact support, AWS S3 for storage.
-        location: Da Nang, Vietnam
-        company: GoTECQ Vietnam, Ltd.
+        company: "[GoTECQ](https://gotecq.com)"
         position: Backend Developer
+        location: Da Nang, Vietnam
+        url: https://gotecq.com
+        highlights:
+          - "Developed and maintained core backend services: Notification Center, Work Management, Contact Center, Data Management."
+          - Implemented CQRS pattern with async processing via Redis Queue, reducing API latency by 40%.
+          - Maintained on-prem and AWS infrastructure using GitLab CI/CD and Docker.
+          - Integrated 3rd-party services (HelloSign, Twilio Flex) and internal core libraries.
+          - Designed API specifications, database schemas, and microservice interactions.
     technologies:
+      - label: Cloud & Platforms
+        details: GCP, Azure, GKE, AKS, ROSA
+      - label: CI/CD & IaC
+        details: Azure DevOps, Terraform, ArgoCD,  Helm, Docker, Kubernetes
+      - label: Observability
+        details: AppDynamics, OpenTelemetry, Grafana, Loki, Prometheus, Elasticsearch
+      - label: Security
+        details: DevSecOps, Keycloak, Palo Alto
       - label: Scripting
         details: Bash, Python, JavaScript
-      - label: Cloud Services
-        details: Azure Devops, Azure Container Registry, Azure Kubernetes Service, Redhat OpenShift Service on AWS
-      - label: Tooling
-        details: Git, Docker, Kubernetes, Helm, Terraform
+      - label: Tools
+        details: Neovim, Tmux, Git
       - label: Languages
         details: English (Intermediate)
     projects:
       - name: CICFlowMeter
         date: 2021-03
         highlights:
-          - Analyze network traffic with more than 80 network traffic analysis features.
-          - Convert packet captures to csv features or realtime sniffing packets from network interface.
-          - Features generate from [CICFlowMeter](https://github.com/hieulw/cicflowmeter) can be
-            used to training Machine Learning model to predict malicious flows.
-      - name: Dreamers Concert
-        date: 2020-12
-        highlights:
-          - Music event [website](https://dreamers-concert.web.app/) for my club at Duy Tan University.
-          - Book and scan tickets with QR Code.
-          - Use React as frontend and Firestore as database, deploy to Firebase.
+          - Developed network traffic analysis tool extracting over 80 network flow features.
+          - Converted PCAP files to CSV features or real-time flow data for ML model training.
+          - Open-sourced at [CICFlowMeter](https://github.com/hieulw/cicflowmeter), used for malicious traffic detection research.
     education:
       - start_date: 2017-08
         end_date: 2021-08
+        location: Da Nang, Vietnam
         highlights:
           - "GPA: 3.5/4.0"
+          - Full Scholarship
         institution: Duy Tan University
         area: Network Engineering
         degree: BS
 design:
-  theme: classic
-  font_size: 10pt
-  page_size: a4paper
-  color: "#004f90"
-  disable_page_numbering: true
-  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
-  header_font_size: 30 pt
-  text_alignment: left-aligned
-  show_timespan_in:
-    - Experience
-  margins:
-    page:
-      top: 2 cm
-      bottom: 2 cm
-      left: 1.24 cm
-      right: 1.24 cm
-    section_title:
-      top: 0.2 cm
-      bottom: 0.2 cm
-    entry_area:
-      left_and_right: 0.2 cm
-      vertical_between: 0.2 cm
-      date_and_location_width: 3.6 cm
-    highlights_area:
-      top: 0.10 cm
-      left: 0.4 cm
-      vertical_between_bullet_points: 0.10 cm
-    header:
-      vertical_between_name_and_connections: 0.2 cm
-      bottom: 0.2 cm
-      horizontal_between_connections: 0.5 cm
+  theme: engineeringclassic
+  page:
+    size: a4
+    top_margin: 0.7cm
+    bottom_margin: 0.7cm
+    left_margin: 0.7cm
+    right_margin: 0.7cm
+    show_page_numbering: false
+    show_last_updated_date: false
+  links:
+    underline: false
+    use_external_link_icon: true
+  entry_types:
+    experience_entry:
+      main_column_first_row_template: "**POSITION** at **COMPANY** *LOCATION*"
