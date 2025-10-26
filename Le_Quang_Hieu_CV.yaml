@@ -50,7 +50,7 @@ cv:
         url: https://gotecq.com
         highlights:
           - "Developed and maintained core backend services: Notification Center, Work Management, Contact Center, Data Management."
-          - Implemented CQRS pattern with async processing via Redis Queue, reducing API latency by 40%.
+          - Implemented CQRS pattern with async processing via Redis Queue, reducing API latency by **40%**.
           - Maintained on-prem and AWS infrastructure using GitLab CI/CD and Docker.
           - Integrated 3rd-party services (HelloSign, Twilio Flex) and internal core libraries.
           - Designed API specifications, database schemas, and microservice interactions.
@@ -102,3 +102,23 @@ design:
   entry_types:
     experience_entry:
       main_column_first_row_template: "**POSITION** at **COMPANY** *LOCATION*"
+rendercv_settings:
+  bold_keywords:
+    - GCP
+    - ROSA
+    - CVE
+    - CQRS
+    - DAST
+    - DevSecOps
+    - RBAC
+    - NAT
+    - Riyadh
+    - MTTR
+    - SAST
+    - SCA
+    - SSO
+  render_command:
+    output_folder_name: rendercv
+    dont_generate_html: false
+    dont_generate_markdown: false
+    dont_generate_png: true

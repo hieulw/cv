@@ -1,5 +1,5 @@
 render:
-	rendercv render Le_Quang_Hieu_CV.yaml
+	rendercv render -w Le_Quang_Hieu_CV.yaml
 
 open:
-	open rendercv_output/Le_Quang_Hieu_CV.pdf
+	open rendercv/Le_Quang_Hieu_CV.pdf
