@@ -2,7 +2,7 @@
 cv:
   name: Le Quang Hieu
   email: hieulw99@gmail.com
-  label: DevOps Engineer
+  # headline: DevOps Engineer
   phone: "+84905974123"
   social_networks:
     - network: GitHub
@@ -43,7 +43,7 @@ cv:
           - Integrated SAST and DAST tools into pipelines to enforce security gates and improve code quality.
           - Provided troubleshooting support to developers for build, deployment, and infrastructure issues.
       - start_date: 2020-10
-        end_date: 2022-02
+        end_date: 2024-04
         company: "[GoTECQ](https://gotecq.com)"
         position: Backend Developer
         location: Da Nang, Vietnam

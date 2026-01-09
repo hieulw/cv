@@ -48,7 +48,7 @@ May 2024 – Dec 2024
 
 ## **Backend Developer** at **[GoTECQ](https://gotecq.com)** *Da Nang, Vietnam*
 
-Oct 2020 – Feb 2022
+Oct 2020 – Apr 2024
 
 - Developed and maintained core backend services: Notification Center, Work Management, Contact Center, Data Management.
 

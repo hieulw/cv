@@ -155,7 +155,7 @@ I'm a SRE \/ DevOps Engineer experienced in building and managing cloud-native i
 
   ],
   [
-    Oct 2020 – Feb 2022
+    Oct 2020 – Apr 2024
 
   ],
   main-column-second-row: [
