@@ -1,12 +1,14 @@
 // Import the rendercv function and all the refactored components
-#import "@preview/rendercv:0.1.0": *
+#import "@preview/rendercv:0.3.0": *
 
 // Apply the rendercv template with custom configuration
 #show: rendercv.with(
   name: "Le Quang Hieu",
+  title: "Le Quang Hieu - CV",
   footer: context { [#emph[Le Quang Hieu -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in Jan 2026] ],
+  top-note: [ #emph[Last updated in Mar 2026] ],
   locale-catalog-language: "en",
+  text-direction: ltr,
   page-size: "a4",
   page-top-margin: 0.7cm,
   page-bottom-margin: 0.7cm,
@@ -67,6 +69,7 @@
   entries-space-between-columns: 0.1cm,
   entries-allow-page-break: false,
   entries-short-second-row: false,
+  entries-degree-width: 1cm,
   entries-summary-space-left: 0cm,
   entries-summary-space-above: 0cm,
   entries-highlights-bullet:  "•" ,
@@ -77,13 +80,15 @@
   entries-highlights-space-between-bullet-and-text: 0.5em,
   date: datetime(
     year: 2026,
-    month: 1,
-    day: 9,
+    month: 3,
+    day: 24,
   ),
 )
 
 
 = Le Quang Hieu
+
+  #headline([DevOps Engineer])
 
 #connections(
   [#link("mailto:hieulw99@gmail.com", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[hieulw99\@gmail.com]]],

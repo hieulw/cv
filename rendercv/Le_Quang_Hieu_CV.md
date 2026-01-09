@@ -91,7 +91,8 @@ Mar 2021
 
 
 # Education
-## **Duy Tan University**, BS in Network Engineering -- Da Nang, VietnamAug 2017 – Aug 2021
+## **Duy Tan University**, BS in Network Engineering -- Da Nang, Vietnam
+Aug 2017 – Aug 2021
 
 - GPA: 3.5/4.0
 
