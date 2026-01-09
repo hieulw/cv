@@ -94,15 +94,33 @@ design:
     bottom_margin: 0.7cm
     left_margin: 0.7cm
     right_margin: 0.7cm
-    show_page_numbering: false
-    show_last_updated_date: false
+    show_footer: false
+    show_top_note: false
+  typography:
+    line_spacing: 0.6em
+  entries:
+    allow_page_break: false
+    summary:
+      space_above: 0cm
+      space_left: 0cm
+    highlights:
+      space_left: 0cm
+      space_above: 0cm
+      space_between_items: 0cm
+  sections:
+    allow_page_break: false
+    space_between_regular_entries: 0.5em
+    space_between_text_based_entries: 0.3em
   links:
     underline: false
-    use_external_link_icon: true
-  entry_types:
+    show_external_link_icon: true
+  templates:
     experience_entry:
-      main_column_first_row_template: "**POSITION** at **COMPANY** *LOCATION*"
-rendercv_settings:
+      main_column: |-
+        **POSITION** at **COMPANY** *LOCATION*
+        SUMMARY
+        HIGHLIGHTS
+settings:
   bold_keywords:
     - GCP
     - ROSA
@@ -118,7 +136,10 @@ rendercv_settings:
     - SCA
     - SSO
   render_command:
-    output_folder_name: rendercv
+    typst_path: rendercv/NAME_IN_SNAKE_CASE_CV.typ
+    pdf_path: rendercv/NAME_IN_SNAKE_CASE_CV.pdf
+    markdown_path: rendercv/NAME_IN_SNAKE_CASE_CV.md
+    html_path: rendercv/NAME_IN_SNAKE_CASE_CV.html
     dont_generate_html: false
     dont_generate_markdown: false
     dont_generate_png: true
