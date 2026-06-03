@@ -6,7 +6,7 @@
   name: "Le Quang Hieu",
   title: "Le Quang Hieu - CV",
   footer: context { [#emph[Le Quang Hieu -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in Mar 2026] ],
+  top-note: [ #emph[Last updated in May 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "a4",
@@ -80,8 +80,8 @@
   entries-highlights-space-between-bullet-and-text: 0.5em,
   date: datetime(
     year: 2026,
-    month: 3,
-    day: 24,
+    month: 5,
+    day: 28,
   ),
 )
 
@@ -137,7 +137,7 @@ I'm a SRE \/ DevOps Engineer experienced in building and managing cloud-native i
 
   ],
   [
-    May 2024 – Dec 2024
+    May 2022 – Dec 2024
 
   ],
   main-column-second-row: [

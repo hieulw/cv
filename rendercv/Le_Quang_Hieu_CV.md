@@ -32,7 +32,7 @@ Dec 2024 – present
 
 ## **DevOps Engineer** at **[VIB](https://vib.com.vn)** *Ho Chi Minh, Vietnam*
 
-May 2024 – Dec 2024
+May 2022 – Dec 2024
 
 - Maintained and improved CI/CD pipelines across multiple projects using Azure DevOps.
 
